@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bishkek Tour Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_bishkek">Welcome to Bishkek!</string>
+    <string name="explore_the_city">Explore the city</string>
+    <string name="explore_restaurants">Explore restaurants</string>
+    <string name="explore_malls">Explore malls</string>
+    <string name="explore_parks">Explore parks</string>
+    <string name="bishkek">Bishkek</string>
+    <string name="frunze">Frunze</string>
+</resources>
