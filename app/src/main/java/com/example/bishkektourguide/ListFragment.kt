@@ -5,12 +5,42 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.viewpager2.widget.ViewPager2
+import com.example.bishkektourguide.databinding.FragmentListBinding
+import com.example.bishkektourguide.databinding.FragmentTitleBinding
+import com.google.android.material.tabs.TabLayoutMediator
 
 
 class ListFragment : Fragment() {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val binding: FragmentListBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_list, container, false)
+        val adapter = PageAdapter(this)
+        val viewPager = binding.viewPager2
+        val tabLayout = binding.tabLayout
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        viewPager.adapter = adapter
+
+        TabLayoutMediator(tabLayout, viewPager){tab, position ->
+            when(position){
+                0 -> {
+                    tab.text = "Restaurants"
+                }
+                1 -> {
+                    tab.text = "Parks"
+                }
+                2 -> {
+                    tab.text = "Malls"
+                }
+            }
+        }.attach()
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_list, container, false)
+        return binding.root
     }
+
 }

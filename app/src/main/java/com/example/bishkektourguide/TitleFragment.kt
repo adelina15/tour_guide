@@ -17,7 +17,6 @@ class TitleFragment : Fragment() {
         val binding: FragmentTitleBinding= DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false)
         binding.exploreButton.setOnClickListener (
             Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_listFragment))
-
         // Inflate the layout for this fragment
         return binding.root
     }
