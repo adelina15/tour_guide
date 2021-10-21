@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.viewpager2.widget.ViewPager2
 import com.example.bishkektourguide.databinding.FragmentListBinding
-import com.example.bishkektourguide.databinding.FragmentTitleBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
 
