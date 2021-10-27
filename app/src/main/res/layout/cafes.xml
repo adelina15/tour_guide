@@ -38,12 +38,10 @@
 
                     <TextView
                         android:id="@+id/title"
+                        style="@style/title"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="@string/frunze"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                        android:textStyle="bold" />
+                        android:text="@string/frunze" />
 
                 </LinearLayout>
 
@@ -61,20 +59,17 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="25dp"
+                            style="@style/icon"
                             android:layout_height="25dp"
                             android:scaleType="centerCrop"
                             android:src="@drawable/lamp_icon" />
 
                         <TextView
                             android:id="@+id/description"
+                            style="@style/description"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:gravity="center"
-                            android:text="PlaceHolder"
-                            android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:text="PlaceHolder" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -84,20 +79,16 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="25dp"
-                            android:layout_height="25dp"
+                            style="@style/icon"
                             android:scaleType="centerCrop"
                             android:src="@drawable/phone_icon" />
 
                         <TextView
                             android:id="@+id/number"
+                            style="@style/phone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:autoLink="phone"
-                            android:gravity="center"
-                            android:text="PlaceHolder"
-                            android:textSize="16sp" />
+                            android:text="PlaceHolder" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -107,19 +98,19 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:layout_width="25dp"
+                            style="@style/icon"
                             android:layout_height="25dp"
                             android:scaleType="centerCrop"
                             android:src="@drawable/location_icon" />
 
                         <TextView
                             android:id="@+id/location"
+                            style="@style/location"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:gravity="center"
-                            android:text="PlaceHolder"
-                            android:textSize="16sp" />
+                            android:clickable="true"
+                            android:linksClickable="false"
+                            android:text="PlaceHolder" />
                     </LinearLayout>
 
 

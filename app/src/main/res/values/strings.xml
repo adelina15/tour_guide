@@ -1,12 +1,137 @@
 <resources>
     <string name="app_name">Bishkek Tour Guide</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- greetings -->
     <string name="welcome_to_bishkek">Welcome to Bishkek!</string>
     <string name="explore_the_city">Explore the city</string>
-    <string name="explore_restaurants">Explore restaurants</string>
-    <string name="explore_malls">Explore malls</string>
-    <string name="explore_parks">Explore parks</string>
     <string name="bishkek">Bishkek</string>
+    <!--restaurant Frunze-->
     <string name="frunze">Frunze</string>
+    <string name="frunze_description">
+        Average fee: 1500 KGS\n
+        Kitchen type: European, Central European\n
+        Daily 10:00 - 23:00
+    </string>
+    <string name="frunze_number">+996 551 66-44-66</string>
+    <string name="frunze_location">Abdymomunova, 220а</string>
+    <string name="frunze_map">https://goo.gl/maps/fuR6Z6rWRZCz2S9R8</string>
+    <!--restaurant Pishpek-->
+    <string name="pishpek">Pishpek</string>
+    <string name="pishpek_description">
+        Average fee: 1300 KGS\n
+        Kitchen type: European, Central European, Japanese\n
+        Daily 11:00 - 24:00
+    </string>
+    <string name="pishpek_number">+996 555‒55‒55‒08</string>
+    <string name="pishpek_location">Togolok Moldo, 17/1</string>
+    <string name="pishpek_map">https://goo.gl/maps/fuR6Z6rWRZCz2S9R8</string>
+    <!--restaurant The Most-->
+    <string name="most">The Most</string>
+    <string name="most_description">
+        Average fee: 1300 KGS\n
+        Kitchen type: European, Central European\n
+        Daily 10:00 - 22:00
+    </string>
+    <string name="most_number">+996 772‒00‒05‒13</string>
+    <string name="most_location">Akhunbaeva, 204/2</string>
+    <string name="most_map">https://goo.gl/maps/jggYVYP4YUTbKUfm9</string>
+
+    <!--restaurant Ala Too-->
+    <string name="alatoo">Ala Too</string>
+    <string name="alatoo_description">
+        Average fee: 1000 KGS\n
+        Kitchen type: European, Central European, Japanese\n
+        Daily 09:00 - 23:00
+    </string>
+    <string name="alatoo_number">+996 701‒54‒33‒33</string>
+    <string name="alatoo_location">Abdylas Maldybaev, 54</string>
+    <string name="alatoo_map">https://goo.gl/maps/4FeQiivZJd8mYGid9</string>
+
+    <!--asia mall-->
+    <string name="asia_mall">Asia Mall</string>
+    <string name="asia_mall_description">
+        Lively shopping and entertainment complex: clothing boutiques, supermarket, food court, cinema and indoor playground.\n
+        Highlights: Play area\n
+        Amenities: Public toilet; Free Wi-Fi\n
+        Daily 10:00 - 22:00
+    </string>
+    <string name="asia_mall_number">+996 551‒89‒00‒40</string>
+    <string name="asia_mall_location">Chyngyz Aitmatov Avenue, 3 </string>
+    <string name="asia_mall_map">https://g.page/asiamall?share</string>
+    <!--bishkek park mall-->
+    <string name="bishkek_park">Bishkek Park</string>
+    <string name="bishkek_park_description">
+        Lively shopping and entertainment complex: clothing boutiques, banks, supermarket, food court, cinema and indoor playground.\n
+        Highlights: Clothing boutiques\n
+        Amenities: Public toilet; Free Wi-Fi\n
+        Daily 10:00 - 22:00
+    </string>
+    <string name="bishkek_park_number">+996 (312) 31‒20‒31</string>
+    <string name="bishkek_park_location">Kievskaya street, 148 </string>
+    <string name="bishkek_park_map">https://g.page/BishkekPark?share</string>
+    <!--dordoi plaza mall-->
+    <string name="dordoi_plaza">Dordoi Plaza</string>
+    <string name="dordoi_plaza_description">
+        On the territory of the complex there are: shopping galleries, a business center,
+        an amusement park for children, a modern cinema, a multi-level parking lot for 800 cars and much more.\n
+        Amenities: Public toilet; Free Wi-Fi\n
+        Daily 10:00 - 22:00
+    </string>
+    <string name="dordoi_plaza_number">+996 770‒90‒12‒12</string>
+    <string name="dordoi_plaza_location">Ibraimova, 115/2</string>
+    <string name="dordoi_plaza_map">https://goo.gl/maps/PwceKWfyjb9erBh16</string>
+    <!--tommi mall-->
+    <string name="tommi_mall">Tommi Mall</string>
+    <string name="tommi_mall_description">
+        "Tommy" is a boutique of clothes for the whole family, shops of accessories, perfumery and cosmetics,
+        beauty salon, food court, playground, hypermarket, car wash and detailing center.\n
+        Highlights: Clothing boutiques\n
+        Amenities: Public toilet; Free Wi-Fi\n
+        Daily 10:00 - 22:00
+    </string>
+    <string name="tommi_mall_number">+996 999‒22‒24‒44</string>
+    <string name="tommi_mall_location">Tokombaeva, 17/2 </string>
+    <string name="tommi_mall_map">https://g.page/tommimallkg?share</string>
+    <!--hyatt hotel-->
+    <string name="hyatt">Hyatt</string>
+    <string name="hyatt_description">
+        Overlooking the Tien Shan mountains, this modern five-star hotel is located in the business district,
+        a 3-minute walk from the Opera and Ballet Theater and 12 minutes from the Kyrgyz State historical museum.\n
+        Check-in time: 14:00\n
+        Check-out time: 12:00
+    </string>
+    <string name="hyatt_number">+996 (312) 66‒12‒34</string>
+    <string name="hyatt_location">Abdrakhmanov, 191</string>
+    <string name="hyatt_map">https://goo.gl/maps/9DswYYzScmNzoCzd6</string>
+    <!--jannat hotel-->
+    <string name="jannat">Jannat</string>
+    <string name="jannat_description">
+        Set in a residential area, this relaxed five-star hotel is 2 km from Asanbai Amusement Park, 8 km from Oak Park and 22 km from route A365.\n
+        Check-in time: 14:00\n
+        Check-out time: 12:00
+    </string>
+    <string name="jannat_number">+996 (312) 90‒97‒50</string>
+    <string name="jannat_location">Тokombaev, 21/2</string>
+    <string name="jannat_map">https://g.page/Jannat-Regency?share</string>
+    <!--novotel hotel-->
+    <string name="novotel">Novotel</string>
+    <string name="novotel_description">
+        Novotel Bishkek City Center located 28 km away from Manas International Airport and 2.2 km away from Ala Too square\n
+        Check-in time: 15:00\n
+        Check-out time: 12:00
+    </string>
+    <string name="novotel_number">+996 (312) 988‒988</string>
+    <string name="novotel_location">Manas, 16</string>
+    <string name="novotel_map">https://goo.gl/maps/JTsc1pZKMDaiN6Nw6</string>
+    <!--rixon hotel-->
+    <string name="rixon">Rixon</string>
+    <string name="rixon_description">
+        Cozy and comfortable hotel "RIXON" is located on a quiet street of Bishkek, not far from the city center, which attracts tourists and fans of excursion programs.\n
+        Check-in time: 15:00\n
+        Check-out time: 12:00
+    </string>
+    <string name="rixon_number">+996 770‒00‒51‒27</string>
+    <string name="rixon_location">Mederov, 71</string>
+    <string name="rixon_map">https://goo.gl/maps/7ZfRTzsJmN4oU5fC9</string>
+
+
 </resources>

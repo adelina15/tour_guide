@@ -7,7 +7,5 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-<!--    <color name="resto">"#bbdefb"</color>-->
-<!--    <color name="park">#c8e6c9</color>-->
-<!--    <color name="mall">#e1bee7</color>-->
+    <color name="blue"> #0000EE</color>
 </resources>

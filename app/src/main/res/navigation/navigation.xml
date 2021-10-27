@@ -7,7 +7,7 @@
     app:startDestination="@id/titleFragment">
     <fragment
         android:id="@+id/titleFragment"
-        android:name="com.example.bishkektourguide.TitleFragment"
+        android:name="com.example.bishkektourguide.fragments.TitleFragment"
         android:label="TitleFragment"
         tools:layout="@layout/fragment_title">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.bishkektourguide.ListFragment"
+        android:name="com.example.bishkektourguide.fragments.ListFragment"
         android:label="ListFragment"
         tools:layout="@layout/fragment_list"/>
 </navigation>
